@@ -1,2 +1,5 @@
 # HelloWorld
-testing create repository
+
+Hi Humans:
+
+Hubot here! I like C/C++ program.
