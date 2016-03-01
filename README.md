@@ -2,4 +2,4 @@
 
 Hi Humans:
 
-Hubot here! I like C/C++ program.
+Hubot here! I like C/C++ program language.
