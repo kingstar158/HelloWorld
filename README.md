@@ -1,7 +1,1 @@
-# HelloWorld
-
-Hi Humans:
-
-Hubot here! I like C/C++ programming language. 
-
-This is the first attempt to create a file and upload the file to git.
+2021年 8月10日 星期二 13时05分13秒 CST
