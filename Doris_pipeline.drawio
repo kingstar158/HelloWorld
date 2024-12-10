@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="25.0.1">
   <diagram name="第 1 页" id="F3n_OmZAB9bpm3EtxzeP">
-    <mxGraphModel dx="1614" dy="940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1715" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -322,6 +322,33 @@
         </mxCell>
         <mxCell id="gP9biF-QUwRpTRRh-aC0-161" value="Shuffle 48 Instance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=#FF6666;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="928" y="1305" as="geometry" />
+        </mxCell>
+        <mxCell id="gP9biF-QUwRpTRRh-aC0-168" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1232.5" y="610" width="390" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="gP9biF-QUwRpTRRh-aC0-169" value="SET_PROBE_SINK_OPERATOR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="640" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gP9biF-QUwRpTRRh-aC0-170" value="CROSS_JOIN_OPERATOR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="730" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gP9biF-QUwRpTRRh-aC0-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gP9biF-QUwRpTRRh-aC0-171" target="gP9biF-QUwRpTRRh-aC0-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gP9biF-QUwRpTRRh-aC0-171" value="DISTINCT_STREAMING_&lt;div&gt;AGGREGATION_OPERATOR&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="820" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gP9biF-QUwRpTRRh-aC0-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gP9biF-QUwRpTRRh-aC0-172" target="gP9biF-QUwRpTRRh-aC0-171">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gP9biF-QUwRpTRRh-aC0-172" value="EXCHANGE_OPERATOR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="920" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gP9biF-QUwRpTRRh-aC0-175" value="BUCKET_HASH_SHUFFLE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="880" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gP9biF-QUwRpTRRh-aC0-177" value="ADAPTIVE_PASSTHROUGH" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="785" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
